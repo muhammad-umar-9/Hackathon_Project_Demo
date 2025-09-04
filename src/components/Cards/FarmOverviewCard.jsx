@@ -4,10 +4,10 @@ import './DemoCard.css';
 const FarmOverviewCard = () => {
   return (
     <div className="demo-card">
-      <h3>📊 Rajesh's Farm Dashboard</h3>
+      <h3>📊 Usman's Farm Dashboard</h3>
       <div className="metric">
         <span>Farm Location:</span>
-        <span className="metric-value">Ludhiana, Punjab</span>
+        <span className="metric-value"> bhawalpur, Punjab</span>
       </div>
       <div className="metric">
         <span>Total Area:</span>
