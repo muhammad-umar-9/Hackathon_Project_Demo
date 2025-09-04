@@ -1,0 +1,51 @@
+/* Header Styles */
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  margin: 10px 0 30px 0;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.feature-highlight {
+  background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: center;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.feature-highlight h2 {
+  margin-bottom: 10px;
+}
+
+.disclaimer {
+  font-size: 0.9rem !important;
+  margin-top: 10px !important;
+  opacity: 0.9 !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section {
+    padding: 40px 15px;
+  }
+}

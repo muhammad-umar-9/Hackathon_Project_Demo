@@ -1,0 +1,41 @@
+/* Impact Section Styles */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.impact-item {
+  text-align: center;
+}
+
+.impact-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.impact-number {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.impact-label {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .impact-icon {
+    font-size: 2rem;
+  }
+  
+  .impact-number {
+    font-size: 1.5rem;
+  }
+}

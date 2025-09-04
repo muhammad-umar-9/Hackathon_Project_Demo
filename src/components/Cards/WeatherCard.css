@@ -1,0 +1,7 @@
+/* Weather Card Styles */
+.weather-icon {
+  font-size: 2rem;
+  margin: 10px 0;
+  animation: bounce 2s infinite;
+  text-align: center;
+}

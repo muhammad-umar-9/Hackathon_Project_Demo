@@ -1,0 +1,96 @@
+/* Team Info Styles */
+.team-info {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.student-context {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.student-context p {
+  margin: 5px 0;
+}
+
+.demo-stats {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.call-to-action {
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.call-to-action h4 {
+  margin-bottom: 10px;
+}
+
+.call-to-action p {
+  margin: 10px 0;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.cta-btn-primary {
+  background: white;
+  color: #2E7D32;
+}
+
+.cta-btn-secondary {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .cta-buttons .btn {
+    width: 100%;
+  }
+}
